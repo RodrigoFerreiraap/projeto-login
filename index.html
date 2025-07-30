@@ -15,7 +15,13 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post">
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="Digite seu email: example@email.com" size="40" required><br>
+
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" size="40" required>
+                </form>
             </div>
         </section>
     </main>

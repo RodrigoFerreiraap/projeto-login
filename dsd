@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}main {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+main  p {
+    max-width: 200px;
+}
+:root {
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
