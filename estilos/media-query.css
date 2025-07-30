@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*
+Até 480px – Mobile pequeno (modo retrato)
+
+481px a 767px – Mobile médio e grande
+
+768px a 991px – Tablet (modo retrato)
+
+992px a 1199px – Tablet (modo paisagem) e laptops pequenos
+
+1200px a 1439px – Laptop e desktop médio
+
+1440px ou mais – Desktop grande / telas 4K
+*/
+
+:root {
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+
+    }
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#imagem {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+     section#login > div#imagem {
+        float: right;
+        width: 50%;
+    }
+}

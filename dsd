@@ -1,9 +1,5 @@
-body {
-    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}main {
+
+main {
     background-color: white;
     padding: 50px;
     border-radius: 10px;
@@ -16,7 +12,5 @@ body {
 main  p {
     max-width: 200px;
 }
-:root {
-    --cor1: #49a09d;
-    --cor2: #5f2c82;
-}
+
+<form action="login.php" method="post"> <label for="iemail"></label> <input type="email" name="email" id="iemail" placeholder="Digite seu email: example@email.com" size="40" required><br> <label for="isenha"></label> <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" size="40" required> </form>
