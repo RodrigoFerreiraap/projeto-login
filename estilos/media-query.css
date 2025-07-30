@@ -18,6 +18,27 @@ Até 480px – Mobile pequeno (modo retrato)
     --cor2: #5f2c82;
 }
 
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+
+    }
+    section#login {
+        width: 80vw;
+        height: 290px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
     background: linear-gradient(to bottom, var(--cor2), var(--cor1));
