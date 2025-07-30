@@ -20,3 +20,10 @@ main  p {
     --cor1: #49a09d;
     --cor2: #5f2c82;
 }
+<form action="login.php" method="post">
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="Digite seu email: example@email.com" size="40" required><br>
+
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" size="40" required>
+                </form>
